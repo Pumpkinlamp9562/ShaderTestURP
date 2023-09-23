@@ -1,0 +1,1031 @@
+fileFormatVersion: 2
+guid: 96c6ac8f81ba1fd4f8f333b4df247907
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_CH_MDK_Body
+    second: {fileID: 2100000, guid: 515835179c50dc44396859f00ec8494c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_CH_MDK_Damage
+    second: {fileID: 2100000, guid: 0fa53b601409fed48adda25682c3562b, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 0
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 2
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: mdk_pelvis_jnt1
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_L_uplega_jnt
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_R_uplega_jnt
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_L_lowlega_jnt
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_R_lowlega_jnt
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_L_anklea_jnt
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_R_anklea_jnt
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_spine01_jnt
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_spine02_jnt
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_neck_jnt
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_head_jnt
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_L_scapula_jnt
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_R_scapula_jnt
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_L_uparm_jnt
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_R_uparm_jnt
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_L_lowarm_jnt
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_R_lowarm_jnt
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_L_wrista_jnt
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_R_wrista_jnt
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_L_hathumb01_jnt
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_L_hathumb02_jnt
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_L_hathumb03_jnt
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_L_haindex01_jnt
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_L_haindex02_jnt
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_L_haindex03_jnt
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_L_hamiddle01_jnt
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_L_hamiddle02_jnt
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_L_hamiddle03_jnt
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_L_haring01_jnt
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_L_haring02_jnt
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_L_haring03_jnt
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_L_haPinky01_jnt
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_L_haPinky02_jnt
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_L_haPinky03_jnt
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_R_hathumb01_jnt
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_R_hathumb02_jnt
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_R_hathumb03_jnt
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_R_haindex01_jnt
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_R_haindex02_jnt
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_R_haindex03_jnt
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_R_hamiddle01_jnt
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_R_hamiddle02_jnt
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_R_hamiddle03_jnt
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_R_haring01_jnt
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_R_haring02_jnt
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_R_haring03_jnt
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_R_haPinky01_jnt
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_R_haPinky02_jnt
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_R_haPinky03_jnt
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mdk_spine03_jnt
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: DGH_CH_MDK(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CH_MDK_blendshape
+      parentName: DGH_CH_MDK(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye
+      parentName: CH_MDK_blendshape
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mouth
+      parentName: CH_MDK_blendshape
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sit
+      parentName: CH_MDK_blendshape
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CH_MDK_geo_damageParts
+      parentName: sit
+      position: {x: -0, y: 1.7668258, z: -0.011165885}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_CH_MDK_damage_aurm_L_sit
+      parentName: CH_MDK_geo_damageParts
+      position: {x: -0, y: -1.7668258, z: 0.011165885}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_CH_MDK_damage_aurm_R_sit
+      parentName: CH_MDK_geo_damageParts
+      position: {x: -0, y: -1.7668258, z: 0.011165885}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_CH_MDK_ear_cap_L_sit
+      parentName: CH_MDK_geo_damageParts
+      position: {x: -0, y: -1.7668258, z: 0.011165885}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_CH_MDK_ear_cap_R_sit
+      parentName: CH_MDK_geo_damageParts
+      position: {x: -0, y: -1.7668258, z: 0.011165885}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CH_MDK_geo_nomal
+      parentName: sit
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_CH_MDK_ear_sit
+      parentName: CH_MDK_geo_nomal
+      position: {x: -0, y: 1.7739377, z: -0.0112267705}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_CH_MDK_kessonparts_L_sit
+      parentName: CH_MDK_geo_nomal
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_CH_MDK_kessonparts_R_sit
+      parentName: CH_MDK_geo_nomal
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: taraget
+      parentName: CH_MDK_blendshape
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CH_MDK_geo
+      parentName: DGH_CH_MDK(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CH_MDK_geo_bag
+      parentName: CH_MDK_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_CH_MDK_bag
+      parentName: CH_MDK_geo_bag
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CH_MDK_geo_damageParts
+      parentName: CH_MDK_geo
+      position: {x: -0, y: 1.7668258, z: -0.011165885}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_CH_MDK_damage_aurm_L
+      parentName: CH_MDK_geo_damageParts
+      position: {x: -0, y: -1.7668258, z: 0.011165885}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_CH_MDK_damage_aurm_R
+      parentName: CH_MDK_geo_damageParts
+      position: {x: -0, y: -1.7668258, z: 0.011165885}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_CH_MDK_ear_cap_L
+      parentName: CH_MDK_geo_damageParts
+      position: {x: -0, y: -1.7668258, z: 0.011165885}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_CH_MDK_ear_cap_R
+      parentName: CH_MDK_geo_damageParts
+      position: {x: -0, y: -1.7668258, z: 0.011165885}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CH_MDK_geo_nomal
+      parentName: CH_MDK_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_CH_MDK
+      parentName: CH_MDK_geo_nomal
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_CH_MDK_ear
+      parentName: CH_MDK_geo_nomal
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_CH_MDK_kessonparts_L
+      parentName: CH_MDK_geo_nomal
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_CH_MDK_kessonparts_R
+      parentName: CH_MDK_geo_nomal
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CH_MDK_jnt
+      parentName: DGH_CH_MDK(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_rootjoint
+      parentName: CH_MDK_jnt
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_pelvis_jnt1
+      parentName: mdk_rootjoint
+      position: {x: -0.000000021803805, y: 0.9815178, z: -0.014668829}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_clothes_jnt
+      parentName: mdk_pelvis_jnt1
+      position: {x: -0.11041049, y: -0.07570877, z: 0.15735677}
+      rotation: {x: 0, y: 0, z: 1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_clothesend_jnt
+      parentName: mdk_L_clothes_jnt
+      position: {x: -0.11397178, y: -3.9264335e-17, z: -1.3957516e-17}
+      rotation: {x: 0.7071068, y: 0.7071068, z: 4.3297806e-17, w: 4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_uplega_jnt
+      parentName: mdk_pelvis_jnt1
+      position: {x: -0.011560372, y: -0.11179847, z: -0.0010642722}
+      rotation: {x: 0.0072289146, y: 4.4264337e-19, z: 0.9999739, w: -6.123074e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_lowlega_jnt
+      parentName: mdk_L_uplega_jnt
+      position: {x: -0.3846005, y: 1.2434498e-16, z: 0.00074984116}
+      rotation: {x: 1.1394219e-29, y: -0.004520223, z: -6.3401257e-28, w: 0.9999898}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_anklea_jnt
+      parentName: mdk_L_lowlega_jnt
+      position: {x: -0.47752348, y: -1.0658141e-16, z: -0.0144803105}
+      rotation: {x: 0.58555657, y: 0.3963881, z: -0.3963881, w: 0.58555657}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_ftmiddleend_jnt
+      parentName: mdk_L_anklea_jnt
+      position: {x: -0.1775621, y: -0.014334391, z: 7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_clothes_jnt
+      parentName: mdk_pelvis_jnt1
+      position: {x: -0.11041223, y: 0.075708725, z: 0.15735683}
+      rotation: {x: 0, y: 0, z: 1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_clothesend_jnt
+      parentName: mdk_R_clothes_jnt
+      position: {x: -0.113974, y: -1.7763568e-17, z: -1.395779e-17}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_uplega_jnt
+      parentName: mdk_pelvis_jnt1
+      position: {x: -0.011560217, y: 0.11179802, z: -0.0010642871}
+      rotation: {x: 0.0072289146, y: -0.000000007447626, z: 0.9999739, w: 2.0979984e-10}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_lowlega_jnt
+      parentName: mdk_R_uplega_jnt
+      position: {x: -0.3846003, y: 1.4210854e-16, z: 0.0007498366}
+      rotation: {x: -0.000000012905083, y: -0.004520223, z: -5.833445e-11, w: 0.9999898}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_anklea_jnt
+      parentName: mdk_R_lowlega_jnt
+      position: {x: -0.47752306, y: 3.7374284e-10, z: -0.014480289}
+      rotation: {x: 0.58555657, y: 0.3963881, z: -0.3963881, w: 0.5855565}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_ftmiddleend_jnt
+      parentName: mdk_R_anklea_jnt
+      position: {x: -0.17756218, y: -0.014334809, z: 0.000000004300318}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_spine01_jnt
+      parentName: mdk_pelvis_jnt1
+      position: {x: -0.12457368, y: -8.470329e-24, z: -4.440892e-18}
+      rotation: {x: 0, y: -3.469447e-18, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_spine02_jnt
+      parentName: mdk_spine01_jnt
+      position: {x: -0.13961838, y: 7.485254e-17, z: 0.0036574758}
+      rotation: {x: 0, y: 3.469447e-18, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_spine03_jnt
+      parentName: mdk_spine02_jnt
+      position: {x: -0.1643938, y: 1.1731491e-17, z: -0.0097990995}
+      rotation: {x: 0, y: -0.12896883, z: -0, w: 0.9916487}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_scapula_jnt
+      parentName: mdk_spine03_jnt
+      position: {x: -0.16707094, y: -0.076771796, z: -0.0037161317}
+      rotation: {x: 0.08261323, y: 0.10271495, z: 0.77089554, w: 0.62317324}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_uparm_jnt
+      parentName: mdk_L_scapula_jnt
+      position: {x: -0.16791227, y: -2.842171e-16, z: -1.2434498e-16}
+      rotation: {x: -0.0036032903, y: -0.027189557, z: -0.0726872, w: 0.9969776}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_lowarm_jnt
+      parentName: mdk_L_uparm_jnt
+      position: {x: -0.30141526, y: 5.684342e-16, z: 0}
+      rotation: {x: 7.9411704e-14, y: 0.00000022856551, z: -3.218977e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_lowarm_twist_jnt
+      parentName: mdk_L_lowarm_jnt
+      position: {x: -0.22999999, y: -8.5265126e-16, z: 0.0000000046396056}
+      rotation: {x: -3.3598682e-12, y: -0.00000007250206, z: 2.7174254e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_wrista_jnt
+      parentName: mdk_L_lowarm_jnt
+      position: {x: -0.2736193, y: -7.077006e-14, z: 5.2402524e-16}
+      rotation: {x: 0.07742274, y: 0.43530706, z: 0.10527588, w: 0.8907472}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_haindex01_jnt
+      parentName: mdk_L_wrista_jnt
+      position: {x: -0.083464086, y: 0.029901078, z: -0.06373526}
+      rotation: {x: -0.074495405, y: -0.3908818, z: -0.09559597, w: 0.9124271}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_haindex02_jnt
+      parentName: mdk_L_haindex01_jnt
+      position: {x: -0.045890886, y: -2.842171e-16, z: -1.0658141e-16}
+      rotation: {x: -0.00007621927, y: -0.0007182553, z: 0.011966693, w: 0.9999282}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_haindex03_jnt
+      parentName: mdk_L_haindex02_jnt
+      position: {x: -0.037803836, y: 8.5265126e-16, z: 0}
+      rotation: {x: 0.00006432377, y: 0.00059445883, z: -0.009902177, w: 0.9999508}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_haindexend_jnt
+      parentName: mdk_L_haindex03_jnt
+      position: {x: -0.049152076, y: -2.842171e-16, z: 3.5527136e-17}
+      rotation: {x: 0.029943949, y: -0, z: -0, w: 0.9995516}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_hamiddle01_jnt
+      parentName: mdk_L_wrista_jnt
+      position: {x: -0.060812328, y: 0.023158895, z: -0.086169705}
+      rotation: {x: -0.09171659, y: -0.43677896, z: -0.07748083, w: 0.89152056}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_hamiddle02_jnt
+      parentName: mdk_L_hamiddle01_jnt
+      position: {x: -0.050251845, y: 0, z: -6.217249e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_hamiddle03_jnt
+      parentName: mdk_L_hamiddle02_jnt
+      position: {x: -0.04276644, y: 3.410605e-15, z: -4.4408918e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_haPinky01_jnt
+      parentName: mdk_L_wrista_jnt
+      position: {x: -0.018259643, y: -0.0053650765, z: -0.109327324}
+      rotation: {x: -0.100872844, y: -0.49068004, z: -0.11677762, w: 0.8575668}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_haPinky02_jnt
+      parentName: mdk_L_haPinky01_jnt
+      position: {x: -0.024089022, y: 2.842171e-16, z: -7.105427e-17}
+      rotation: {x: -0.00020241414, y: -0.00072825735, z: 0.037508704, w: 0.999296}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_haPinky03_jnt
+      parentName: mdk_L_haPinky02_jnt
+      position: {x: -0.029473402, y: 5.684342e-16, z: -7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_haring01_jnt
+      parentName: mdk_L_wrista_jnt
+      position: {x: -0.038640525, y: 0.0098113725, z: -0.1011366}
+      rotation: {x: -0.1007774, y: -0.47243646, z: -0.09302256, w: 0.8706288}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_haring02_jnt
+      parentName: mdk_L_haring01_jnt
+      position: {x: -0.04363372, y: 0, z: -1.7763568e-17}
+      rotation: {x: 0.000013329359, y: 0.000049727158, z: -0.0029719581, w: 0.9999956}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_haring03_jnt
+      parentName: mdk_L_haring02_jnt
+      position: {x: -0.0380679, y: 0, z: 7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_haringend_jnt
+      parentName: mdk_L_haring03_jnt
+      position: {x: -0.047511425, y: 8.5265126e-16, z: 1.2434498e-16}
+      rotation: {x: 0.008358517, y: -0, z: -0, w: 0.9999651}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_hathumb01_jnt
+      parentName: mdk_L_wrista_jnt
+      position: {x: -0.047189288, y: 2.842171e-16, z: -2.842171e-16}
+      rotation: {x: -0.019871019, y: -0.0881419, z: -0.08217778, w: 0.9925135}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_hathumb02_jnt
+      parentName: mdk_L_hathumb01_jnt
+      position: {x: -0.036896203, y: -2.842171e-16, z: 7.105427e-17}
+      rotation: {x: -0.031592235, y: -0.033272114, z: 0.014787542, w: 0.9988374}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_hathumb03_jnt
+      parentName: mdk_L_hathumb02_jnt
+      position: {x: -0.036612485, y: -2.842171e-16, z: -1.4210854e-16}
+      rotation: {x: 0.010565533, y: 0.036988422, z: -0.015513938, w: 0.9991394}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_L_hathumbend_jnt
+      parentName: mdk_L_hathumb03_jnt
+      position: {x: -0.048440762, y: 0, z: 1.4210854e-16}
+      rotation: {x: 0.54931206, y: -0, z: -0, w: 0.83561736}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_package_jnt
+      parentName: mdk_L_wrista_jnt
+      position: {x: -0.09156404, y: -0.0027230377, z: -0.10256312}
+      rotation: {x: -0.3541244, y: -0.26459843, z: 0.5351931, w: 0.7198278}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_packageend_jnt
+      parentName: mdk_package_jnt
+      position: {x: -0.08622834, y: 5.7815504e-17, z: 8.392653e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_surface_jnt
+      parentName: mdk_L_lowarm_jnt
+      position: {x: -0.25784913, y: 0.0041308296, z: 0.0039798277}
+      rotation: {x: -0.00000830979, y: -0.0002846247, z: -0.029183166, w: 0.99957407}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_surfaceend_jnt
+      parentName: mdk_surface_jnt
+      position: {x: -0.024192477, y: 3.3689828e-16, z: -1.3120013e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_neck_jnt
+      parentName: mdk_spine03_jnt
+      position: {x: -0.22148888, y: -1.0451212e-13, z: 0.03087648}
+      rotation: {x: 0, y: 0.16056542, z: -0, w: 0.9870252}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_head_jnt
+      parentName: mdk_neck_jnt
+      position: {x: -0.08531259, y: 1.4218619e-14, z: 0.014434611}
+      rotation: {x: 0, y: 0.026785057, z: -0, w: 0.99964124}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_glasses_jnt
+      parentName: mdk_head_jnt
+      position: {x: -0.09254108, y: 0.000000021803896, z: 0.014273163}
+      rotation: {x: -0.4697937, y: 0.5284826, z: -0.5284826, w: -0.4697937}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_glassesend_jnt
+      parentName: mdk_glasses_jnt
+      position: {x: 0.11583602, y: 2.842171e-16, z: 4.2351627e-24}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_headend_jnt
+      parentName: mdk_head_jnt
+      position: {x: -0.21837154, y: -7.306634e-17, z: 1.5987211e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_scapula_jnt
+      parentName: mdk_spine03_jnt
+      position: {x: -0.16707456, y: 0.07677182, z: -0.003715211}
+      rotation: {x: -0.6231635, y: 0.77090335, z: 0.1027141, w: -0.08261436}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_uparm_jnt
+      parentName: mdk_R_scapula_jnt
+      position: {x: -0.1679131, y: 5.684342e-16, z: -4.4408918e-17}
+      rotation: {x: 0.0036257913, y: 0.027188016, z: -0.07269894, w: 0.99697673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_lowarm_jnt
+      parentName: mdk_R_uparm_jnt
+      position: {x: -0.30141515, y: -1.1368684e-15, z: -7.9936054e-17}
+      rotation: {x: 7.08553e-12, y: -0.00000004561802, z: 0.00000009894441, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_lowarm_twist_jnt
+      parentName: mdk_R_lowarm_jnt
+      position: {x: -0.22999999, y: 0.000000014348223, z: -1.037178e-10}
+      rotation: {x: 0.004248129, y: -0.00000007789471, z: -5.3795546e-10, w: 0.999991}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_wrista_jnt
+      parentName: mdk_R_lowarm_jnt
+      position: {x: -0.2736195, y: -1.2732926e-13, z: -1.0746958e-15}
+      rotation: {x: -0.07364613, y: -0.43574715, z: 0.103421345, w: 0.8910695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_haindex01_jnt
+      parentName: mdk_R_wrista_jnt
+      position: {x: -0.083464555, y: 0.0299007, z: 0.0637352}
+      rotation: {x: 0.07448093, y: 0.39086288, z: -0.0956401, w: 0.9124318}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_haindex02_jnt
+      parentName: mdk_R_haindex01_jnt
+      position: {x: -0.045890246, y: 5.684342e-16, z: -3.5527136e-17}
+      rotation: {x: 0.00007621398, y: 0.00071855495, z: 0.012049637, w: 0.99992716}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_haindex03_jnt
+      parentName: mdk_R_haindex02_jnt
+      position: {x: -0.037803717, y: -2.842171e-16, z: 1.7763568e-17}
+      rotation: {x: -0.000064890264, y: -0.000599778, z: -0.009949034, w: 0.99995035}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_haindexend_jnt
+      parentName: mdk_R_haindex03_jnt
+      position: {x: -0.049147017, y: 8.5265126e-16, z: 0}
+      rotation: {x: 0.0000044655426, y: 0.02994342, z: 0.9995516, w: -0.000031051895}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_hamiddle01_jnt
+      parentName: mdk_R_wrista_jnt
+      position: {x: -0.060811143, y: 0.023164812, z: 0.08616986}
+      rotation: {x: 0.09170947, y: 0.43677875, z: -0.07750744, w: 0.8915191}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_hamiddle02_jnt
+      parentName: mdk_R_hamiddle01_jnt
+      position: {x: -0.05025074, y: 0, z: 6.661338e-17}
+      rotation: {x: 6.1485456e-12, y: -0.0000010130965, z: 0.0000060690622, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_hamiddle03_jnt
+      parentName: mdk_R_hamiddle02_jnt
+      position: {x: -0.04277157, y: -3.2684965e-14, z: -5.4622974e-15}
+      rotation: {x: -1.01912784e-10, y: 0.0000017828023, z: 0.000057164376, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_hamiddleend_jnt
+      parentName: mdk_R_hamiddle03_jnt
+      position: {x: -0.045847774, y: -9.663381e-15, z: 2.8865798e-16}
+      rotation: {x: -0.000001308732, y: -0.0069937594, z: 0.99997556, w: 0.00004973846}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_haPinky01_jnt
+      parentName: mdk_R_wrista_jnt
+      position: {x: -0.01825956, y: -0.005364041, z: 0.10932704}
+      rotation: {x: 0.100836396, y: 0.49069726, z: -0.11680371, w: 0.85755765}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_haPinky02_jnt
+      parentName: mdk_R_haPinky01_jnt
+      position: {x: -0.02408789, y: -5.684342e-16, z: 2.1316282e-16}
+      rotation: {x: 0.00020392661, y: 0.0007336839, z: 0.037748236, w: 0.999287}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_haPinky03_jnt
+      parentName: mdk_R_haPinky02_jnt
+      position: {x: -0.029476052, y: -2.842171e-16, z: -3.5527136e-17}
+      rotation: {x: 0.0000057678562, y: 0.0000180872, z: -0.000165683, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_haPinkyend_jnt
+      parentName: mdk_R_haPinky03_jnt
+      position: {x: -0.04080223, y: -1.7053025e-15, z: -1.4210854e-16}
+      rotation: {x: -0.0000135468335, y: 0.00981193, z: 0.9999519, w: -0.00004303424}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_haring01_jnt
+      parentName: mdk_R_wrista_jnt
+      position: {x: -0.038639843, y: 0.009815333, z: 0.101136595}
+      rotation: {x: 0.10076714, y: 0.4724372, z: -0.093047775, w: 0.8706269}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_haring02_jnt
+      parentName: mdk_R_haring01_jnt
+      position: {x: -0.043632865, y: 5.684342e-16, z: 1.2434498e-16}
+      rotation: {x: -0.000012042378, y: -0.000044923323, z: -0.0029059304, w: 0.99999577}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_haring03_jnt
+      parentName: mdk_R_haring02_jnt
+      position: {x: -0.038068738, y: -5.684342e-16, z: -5.3290704e-17}
+      rotation: {x: 1.247798e-10, y: -0.0000049859295, z: 0.000025026386, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_haringend_jnt
+      parentName: mdk_R_haring03_jnt
+      position: {x: -0.04750862, y: -2.7569057e-14, z: -5.506706e-15}
+      rotation: {x: 0.00000008180738, y: 0.008360022, z: 0.9999651, w: 0.000065164284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_hathumb01_jnt
+      parentName: mdk_R_wrista_jnt
+      position: {x: -0.04718955, y: -2.842171e-16, z: 0}
+      rotation: {x: 0.020191358, y: 0.08872167, z: -0.079194, w: 0.9926979}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_hathumb02_jnt
+      parentName: mdk_R_hathumb01_jnt
+      position: {x: -0.03689567, y: -2.842171e-16, z: 0}
+      rotation: {x: 0.0315902, y: 0.033273026, z: 0.014781805, w: 0.9988376}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_hathumb03_jnt
+      parentName: mdk_R_hathumb02_jnt
+      position: {x: -0.036612332, y: 0, z: 1.4210854e-16}
+      rotation: {x: -0.010565014, y: -0.03698919, z: -0.015496602, w: 0.99913967}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mdk_R_hathumbend_jnt
+      parentName: mdk_R_hathumb03_jnt
+      position: {x: -0.048441175, y: -5.684342e-16, z: -1.4210854e-16}
+      rotation: {x: -0.0000016454842, y: 0.5493124, z: 0.83561707, w: 0.00000041733657}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: mdk_rootjoint
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unlit_TransparentArm
+  m_Shader: {fileID: 4800000, guid: 7d1da23e77cfaa54da4f24f1d2a1d12b, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Grid:
+        m_Texture: {fileID: 2800000, guid: a8fded81109f863439c40a4247ce26a3, type: 3}
+        m_Scale: {x: 200, y: 200}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: -3326585086940189709, guid: a5f44c8e2925639418c346be36ef777b, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 9870faf3961e38f42b1fb2bf6aeadb9d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Alpha: 1.04
+    - _AlphaCutoff: 0.5
+    - _FadeColOffset: 1.15
+    - _FadeOffset: 1.62
+    - _FadeStrenght: -0.08
+    - _FlickOffsetDensity: 0
+    - _FlickOffsetStrenght: 0.0045
+    - _FlickStrenght: 0.3
+    - _Float1: -0.1
+    - _Float3: 0.4
+    - _Inverst: -0.85
+    - _Linesnumber: 1500
+    - _Offset: 0
+    - _ScollTimeScale: 0.076
+    - _ScrollScale: -4.4
+    - _SkinGrowOffset: 0.85
+    m_Colors:
+    - _Color0: {r: 0, g: 0.8784314, b: 10.290196, a: 1}
+    - _Color1: {r: 0, g: 0.1254902, b: 14.682353, a: 1}
+    - _Color2: {r: 0.47353154, g: 0.02415763, b: 0.17144115, a: 1}
+    - _Color3: {r: 0.24608402, g: 0.28159964, b: 0.6603774, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Fresnal: {r: 0.09, g: 1.91, b: 3.25, a: 0}
+    - _OffsetMinMax: {r: -0.08, g: -0.06, b: 0, a: 0}
+    - _ScrollEdgefade: {r: 0.04, g: 0.8, b: 0, a: 0}
+    - _Scrollfade: {r: 0.83, g: 0.39, b: 0, a: 0}
+    - _Smooth: {r: 0.07, g: 0.46, b: 0, a: 0}
+    - _Vector0: {r: 0.59, g: -0.43, b: 0, a: 0}
+    - _Vector1: {r: 0.07, g: 0.47, b: 0, a: 0}
+    - _test: {r: 0.27, g: 0.07, b: 0, a: 0}
+    - _test2: {r: 0.01, g: 0.57, b: 0, a: 0}
+  m_BuildTextureStacks: []

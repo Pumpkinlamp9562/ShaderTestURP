@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 341b2d9cf4e00584aae9ff60275c9477
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - scsSimplePBR: {fileID: 4800000, guid: c7e967bc4b45b1b43943a184ab4a24d3, type: 3}
+  - reflectionMap: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
