@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using NaughtyAttributes;
 
 public class FireFollowEffect : MonoBehaviour
 {
@@ -25,15 +24,12 @@ public class FireFollowEffect : MonoBehaviour
     {
         CaculateParticlePos();
     }
-
-    [Button]
     void CaculateJointPos()
 	{
         mat.SetVector("_LocalPos", lowArmJnt.position);
         mat.SetVector("_Forward", lowArmJnt.right);
 	}
 
-    [Button]
     void CaculateParticlePos()
 	{
         if (mat.GetFloat("_Offset") > 0 && mat.GetFloat("_Offset") < 1 && !ps.isPlaying)
@@ -53,7 +49,6 @@ public class FireFollowEffect : MonoBehaviour
 
         transform.position = Vector3.Lerp(startPos, endPos + startPos, mat.GetFloat("_Offset"));
 
-        if(fire.HasFloat("_Alpha"))
             fire.SetFloat("_Alpha", Mathf.Max(Mathf.Lerp(MinMax.x, MinMax.y, mat.GetFloat("_Offset")),1));
     }
 }
