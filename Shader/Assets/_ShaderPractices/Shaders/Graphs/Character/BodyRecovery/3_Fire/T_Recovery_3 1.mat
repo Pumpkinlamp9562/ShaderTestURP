@@ -19,6 +19,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 5961638f878d1a242b97739008772024, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 70380cfc82009ff418914bba327d6651, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture0:
         m_Texture: {fileID: 2800000, guid: 70380cfc82009ff418914bba327d6651, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -28,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample1:
-        m_Texture: {fileID: 2800000, guid: 70380cfc82009ff418914bba327d6651, type: 3}
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -37,11 +45,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AlphaCutoff: 0.5
-    - _FadeColOffset: 0.22
-    - _FadeOffset: 0.04
+    - _Dither: -0.15
+    - _FadeColOffset: 0.18
+    - _FadeOffset: 0.03
     - _Float1: 0.009
     - _Glow: 0.08
-    - _Offset: 1
+    - _Offset: 0.261
+    - _Saturate: -1.05
+    - _ShadowArea: 0.6
+    - _ShadowCutoff: 0.395
     - _SkinGrowOffset: -0.06
     - _StepCol: 0.03
     - _TessEdgeLength: 16
@@ -57,14 +69,22 @@ Material:
     - _TransShadow: 0.5
     - _TransStrength: 1
     - _TransmissionShadow: 0.5
+    - _level1: 0.017
+    - _level2: 0.072
+    - _level3: 0.144
     m_Colors:
-    - _Color1: {r: 24.463127, g: 273.98703, b: 311.49716, a: 1}
+    - _Color1: {r: 380.22626, g: 52.437862, b: 667.709, a: 1}
     - _Color2: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _Forward: {r: 0, g: 0, b: 0, a: 0}
+    - _Level1: {r: 0, g: 0, b: 0, a: 1}
+    - _Level2: {r: 0, g: 0.4470589, b: 0.8235295, a: 1}
+    - _Level3: {r: 0.9647059, g: 0, b: 0.9960785, a: 1}
     - _LocalPos: {r: 0, g: 0, b: 0, a: 0}
-    - _OffsetMinMax: {r: 1.32, g: -0.47, b: 0, a: 0}
+    - _NoiseSize: {r: 1, g: 1, b: 0, a: 0}
+    - _OffsetMinMax: {r: 1.32, g: -0.16, b: 0, a: 0}
     - _Offsettest: {r: 0, g: 0, b: 0, a: 0}
+    - _ShadowCol: {r: 0, g: 0, b: 0, a: 1}
     - _Size: {r: 1, g: 1, b: 0, a: 0}
     - _TransformOffset: {r: -2.17, g: 0.82, b: 0, a: 0}
     - _Vector0: {r: 0, g: 0, b: 0, a: 0}

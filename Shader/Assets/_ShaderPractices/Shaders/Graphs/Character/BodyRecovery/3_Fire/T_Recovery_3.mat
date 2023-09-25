@@ -66,5 +66,6 @@ Material:
     - _OffsetMinMax: {r: 1.32, g: -0.09, b: 0, a: 0}
     - _Offsettest: {r: 0.08, g: -0.15, b: 0.03, a: 0}
     - _Size: {r: 7, g: 7, b: 0, a: 0}
+    - _TransformOffset: {r: 0.64, g: 1.46, b: 0, a: 0}
     - _Vector0: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

@@ -2,15 +2,14 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 8
+  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Unlit_Fire
   m_Shader: {fileID: 4800000, guid: 14f2081e0cd35894bb5454ad41817881, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -24,21 +23,33 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 70380cfc82009ff418914bba327d6651, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _TextureSample0:
         m_Texture: {fileID: 2800000, guid: 70380cfc82009ff418914bba327d6651, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Ints: []
     m_Floats:
-    - _Alpha: 3.14
+    - _Alpha: 0.068121
     - _AlphaCutoff: 0.5
-    - _Level1: 1
-    - _Level2: 4
-    - _Rotation: 0.2
+    - _FireCircleRotation: -0.44
+    - _Level1: 0.14
+    - _Level2: 0.06
+    - _Rotation: -0.44
     m_Colors:
     - _Color0: {r: 0, g: 0, b: 0, a: 1}
-    - _Color1: {r: 0, g: 0.2792062, b: 0.3962264, a: 0}
-    - _Color2: {r: 0.020698164, g: 1.645504, b: 1.9766746, a: 0}
+    - _Color1: {r: 0.92072695, g: 0, b: 1.584314, a: 0}
+    - _Color2: {r: 0, g: 0.16781999, b: 0.6473058, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Scale: {r: 0.37, g: 0.42, b: 0, a: 0}
+    - _FireCircleScale: {r: 0.52, g: 0.47, b: 0, a: 0}
+    - _FireFadeOut: {r: -1.57, g: 1.47, b: 0, a: 0}
+    - _MainFadeOut: {r: -1.57, g: 1.47, b: 0, a: 0}
+    - _MinMax: {r: 0.03, g: 0.18, b: 0, a: 0}
+    - _Scale: {r: 0.52, g: 0.47, b: 0, a: 0}
+    - _TransformMinMax: {r: 0.03, g: 0.18, b: 0, a: 0}
+    - _level1: {r: 0.92072695, g: 0, b: 1.584314, a: 0}
+    - _level2: {r: 0, g: 0.16781999, b: 0.6473058, a: 0}
+    - _level3: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

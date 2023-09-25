@@ -7,15 +7,13 @@ public class FireFollowEffect : MonoBehaviour
     Transform lowArmJnt;
     Vector3 startPos;
     ParticleSystem ps;
-    [SerializeField] Vector3 endPos;
+    [SerializeField] Transform endPos;
     [SerializeField] Vector2 MinMax;
     [SerializeField] Material mat;
     [SerializeField] Material fire;
-	//mdk_R_lowarm_jnt
 
 	private void Start()
 	{
-        
         startPos = transform.position;
         ps = GetComponent<ParticleSystem>();
     }
@@ -24,11 +22,6 @@ public class FireFollowEffect : MonoBehaviour
     {
         CaculateParticlePos();
     }
-    void CaculateJointPos()
-	{
-        mat.SetVector("_LocalPos", lowArmJnt.position);
-        mat.SetVector("_Forward", lowArmJnt.right);
-	}
 
     void CaculateParticlePos()
 	{
@@ -47,8 +40,8 @@ public class FireFollowEffect : MonoBehaviour
         }
 
 
-        transform.position = Vector3.Lerp(startPos, endPos + startPos, mat.GetFloat("_Offset"));
+        transform.position = Vector3.Lerp(startPos, endPos.position, mat.GetFloat("_Offset"));
 
-            fire.SetFloat("_Alpha", Mathf.Max(Mathf.Lerp(MinMax.x, MinMax.y, mat.GetFloat("_Offset")),1));
+            fire.SetFloat("_Alpha", mat.GetFloat("_Offset")* mat.GetFloat("_Offset"));
     }
 }

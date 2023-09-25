@@ -19,6 +19,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 5961638f878d1a242b97739008772024, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Grid:
         m_Texture: {fileID: 2800000, guid: 881c304491028ea48b5027ac6c62cf73, type: 3}
         m_Scale: {x: 200, y: 200}
@@ -38,32 +42,38 @@ Material:
     m_Floats:
     - _Alpha: 1
     - _AlphaCutoff: 0.5
-    - _FadeColOffset: 1.22
-    - _FadeOffset: 1.43
-    - _FadeStrenght: 0.19
+    - _FadeColOffset: 0.04
+    - _FadeOffset: 0.3
+    - _FadeStrenght: 0.57
     - _FlickOffsetDensity: 0
     - _FlickOffsetStrenght: 0.0045
-    - _FlickStrenght: 0.645
-    - _Float1: -0.1
+    - _FlickStrenght: 0.35
+    - _Float1: 0.02
     - _Float3: 0.5
     - _Inverst: -0.85
     - _Linesnumber: 150
-    - _Offset: 0.744
+    - _Offset: 0.65
     - _ScollTimeScale: 0.076
     - _ScrollScale: -1.16
-    - _SkinGrowOffset: 3.17
+    - _SkinGrowOffset: 3.18
+    - _Transform: 1
     m_Colors:
     - _Color0: {r: 0, g: 0.75424725, b: 8.47419, a: 1}
     - _Color1: {r: 0, g: 0.1254902, b: 14.682353, a: 1}
-    - _Color2: {r: 0.47353154, g: 0.02415763, b: 0.17144115, a: 1}
+    - _Color2: {r: 0.26251024, g: 0.025157154, b: 1, a: 1}
     - _Color3: {r: 0.24608402, g: 0.28159964, b: 0.6603774, a: 1}
+    - _EdgeNoiseScale: {r: 0, g: 11.54, b: 0, a: 0}
+    - _EdgeOffsetMinMax: {r: 0, g: 0.65, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _Fresnal: {r: 0.09, g: 1.91, b: 3.25, a: 0}
-    - _OffsetMinMax: {r: 0, g: 1.3, b: 0, a: 0}
+    - _HighlightColor: {r: 0, g: 0.75424725, b: 8.47419, a: 1}
+    - _MainColor: {r: 0, g: 0.09756721, b: 14.682352, a: 1}
+    - _NoiseEdgeScale: {r: 0, g: 11.54, b: 0, a: 0}
+    - _OffsetMinMax: {r: 0, g: 0.58, b: 0, a: 0}
     - _ScrollEdgefade: {r: 0.04, g: 0.8, b: 0, a: 0}
     - _Scrollfade: {r: 0.83, g: 0.39, b: 0, a: 0}
     - _Smooth: {r: 0.07, g: 0.46, b: 0, a: 0}
-    - _TotalOffset: {r: -4.09, g: 3.37, b: 0, a: 0}
+    - _TotalOffset: {r: -2.27, g: 3.87, b: 0, a: 0}
     - _TotalScale: {r: 0, g: 11.54, b: 0, a: 0}
     - _Vector0: {r: 0.59, g: -0.43, b: 0, a: 0}
     - _Vector1: {r: 0.07, g: 0.47, b: 0, a: 0}
